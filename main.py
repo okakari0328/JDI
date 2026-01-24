@@ -23,7 +23,9 @@ def main(page: ft.Page):
         options=[
             ft.dropdown.Option("1"),
             ft.dropdown.Option("2"),
-            ft.dropdown.Option("3")
+            ft.dropdown.Option("3"),
+            ft.dropdown.Option("4"),
+            ft.dropdown.Option("5")
         ]
     )
     deadline = ft.TextField(label="期限 (YYYY-MM-DD)・任意", width=200)
@@ -108,7 +110,7 @@ def main(page: ft.Page):
         bgcolor="#f0f0f0",
         border_radius=10,
         height=400,
-        width=450,
+        width=590,
     )
 
     def build_calendar(year, month):
